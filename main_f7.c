@@ -137,7 +137,7 @@ static void board_init(void);
 /* standard clocking for all F7 boards */
 static const struct rcc_clock_scale clock_setup = {
 	.pllm = 8,
-	.plln = 216,
+	.plln = 432,
 	.pllp = 2,
 	.pllq = 9,
 	.pllr = 2,
